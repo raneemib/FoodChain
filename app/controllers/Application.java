@@ -7,8 +7,20 @@ import views.html.*;
 
 public class Application extends Controller {
 
-    public static Result index() {
-        return ok(index.render("welcome to FoodChain- site is under construction..."));
+	  public static void index() {
+        render();
     }
+
+    public static void showUser(String id) {
+         render();
+    }   
+
+    public static void deleteUser(String id) {
+        render();
+    }
+
+    public static void createUser(User user) {
+        render();     
+    } 
 
 }
