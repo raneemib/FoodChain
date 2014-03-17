@@ -1,4 +1,4 @@
-@(title: String)(content: Html)
+@(title: String)(content: Html)(navibr: Html)
 
 <!DOCTYPE html>
 
@@ -23,44 +23,7 @@
   </head>
 
   <body>
-     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://foodchain.herokuapp.com">
-			<img src="@routes.Assets.at("images/site_main_logo.jpg")" alt="FoodChain" class="site_logo">
-		  </a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">דף הבית</a></li>
-            <li><a href="#about">אודות</a></li>
-            <li><a href="#contact">צור קשר</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>מפסיקים את הרעב יחד</h1>
-        <p class="lead">שיתוף מזון<br><a href="https://github.com/EladYona/FoodChain/wiki">Project Wiki</a></p>
-      </div>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="@routes.Assets.at("javascripts/bootstrap/bootstrap.min.js")"></script>
+   @message
   </body>
 
 </html>
