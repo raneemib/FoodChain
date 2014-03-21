@@ -1,3 +1,5 @@
+.html,.body {height:100%;}
+.jumbotron{height:100%;}
 .main_div
 {
 	background-color:#D8D8D8;
@@ -6,5 +8,15 @@
 	padding:20px;
 	margin-top:20px;
 	margin-left:20px;
-	margin-right:200px
+	margin-right:200px;
+}
+
+.header
+{
+	height:60px;
+}
+
+.site_logo
+{
+	height:45px;
 }

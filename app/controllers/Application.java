@@ -29,5 +29,10 @@ public class Application extends Controller {
 	public static Result help()
 	{
 		return ok(views.html.help.render());
-	}	
+	}
+
+	public static Result donate()
+	{
+		return ok(views.html.donationtion.render());
+	}		
 }
