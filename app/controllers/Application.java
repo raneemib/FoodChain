@@ -26,13 +26,13 @@ public class Application extends Controller {
 		return ok(views.html.signup.render());
 	}
 	
-	public static Result help()
+	public static Result contactus()
 	{
-		return ok(views.html.help.render());
+		return ok(views.html.contact.render());
 	}
 
 	public static Result donate()
 	{
-		return ok(views.html.donationtion.render());
+		return ok(views.html.donation.render());
 	}		
 }
